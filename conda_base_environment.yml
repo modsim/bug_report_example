@@ -1,0 +1,25 @@
+name: modsim_data_env
+channels:
+  - conda-forge
+  - anaconda-fusion
+  - defaults
+dependencies:
+  - python=3.10
+  - mamba
+  - cadet
+  - numpy>=1.21
+  - scipy>=1.11
+  - matplotlib>=3.4
+  - joblib>=1.3.0
+  - jupyterlab
+  - pip
+  - pyqt
+  - gitpython
+  - openpyxl
+  - ipylab
+  - pip:
+    - CADET-Process
+    - jupytext
+    - junix
+    
+prefix: C:\Users\ronal\miniconda3\envs\modsim_data_env
